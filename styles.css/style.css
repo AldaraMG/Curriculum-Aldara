@@ -40,16 +40,18 @@
 
 .rectangulo_c1 {
 
+    display: flex;
     flex-direction: column;
+    padding-right: 15px;
     height: 55.99rem;
     width: 40%;
     align-items: center;
-    border-radius: 1px;
+    
 
 }
 
 .caja1 {
-
+   
     display: flex;
     height: 22.875rem;
     width: 11.5rem;
@@ -73,6 +75,7 @@
 
 .imagen {
 
+    
     height: 9.375rem;
     width: 9.375rem;
     background-image: url(../Fotoaldara2.jpeg);
@@ -102,7 +105,7 @@
 
 
 .caja2 {
-
+ 
     height: 14.875rem;
     width: 10.6875rem;
     border-radius: 0% 10% 0% 10%;
@@ -123,7 +126,7 @@
 }
 
 .caja3 {
-
+ 
     height: 11rem;
     width: 10.625rem;
     background: rgb(87, 181, 113);
@@ -134,14 +137,16 @@
 }
 
 #info {
-
+    
     font-size: small;
     padding-left: 15px;
 
 }
 
 .rectangulo_c2 {
-    
+
+    display: flex;
+    flex-direction: column;
     height: 55.99rem;
     width: 80%;
 
